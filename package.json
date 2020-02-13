@@ -19,6 +19,7 @@
     "gatsby-source-filesystem": "^2.0.26",
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.9",
+    "gh-pages": "^2.2.0",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.9.6",
@@ -46,5 +47,8 @@
   },
   "devDependencies": {
     "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   }
 }
