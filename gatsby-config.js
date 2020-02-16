@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/lift-happy-lift-healthy",
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Lift Happy Lift Healthy',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'A personal fitness blog from a personal trainer and inspirational coach.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
