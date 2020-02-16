@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Carissa - this is the right place
 image: /img/home-jumbotron.jpg
 heading: Carissa - this is the right place
 subheading: Support sustainable farming while enjoying a cup
